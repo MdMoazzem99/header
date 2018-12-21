@@ -1,0 +1,111 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.header{
+	background-color: #121B2A;
+	min-height: 100px;
+}
+.wrapper{
+	/*border: 5px solid green;*/
+	width: 80%;
+	overflow: hidden;
+	margin: 0px auto;
+}
+.logo{
+	/*border: 5px solid blue;*/
+	width: 20%;
+	float: left;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	/*border: 5px solid blue;*/
+	width: 67%;
+	float: right;
+	margin-top: 0px;
+	overflow: hidden;
+}
+.login{
+	/*border: 5px solid orange;*/
+	width: 55%;
+	float:right;
+	overflow: hidden;
+}
+.client_login{
+	background-color: #FEFEFE;
+	width: 42%;
+	float: left;
+	overflow: hidden;
+	padding: 5px;
+}
+.client_login div{
+	margin: 0px 20px;
+	float: left;
+	width: 10%;
+}
+.client_login div img{
+	width: 100%;
+}
+.client_login a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: black;
+	float: left;
+	display: block;
+	margin: 3px 0px;
+	transition: .5s;
+}
+.client_login a:hover{
+	color: #007ABD;
+}
+.employee_login{
+	background-color: #007ABD;
+	width: 53%;
+	float: right;
+	overflow: hidden;
+	padding: 5px;
+}
+.employee_login div{
+	margin: 0px 20px;
+	float: left;
+	width: 8%;
+}
+.employee_login div img{
+	width: 100%;
+}
+.employee_login a{
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	float: left;
+	display: block;
+	margin: 3px 0px;
+	transition: .5s;
+}
+.employee_login a:hover{
+	color: black;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{
+	list-style: none;
+	float: left;
+	margin-top: 46px; 
+}
+.menu ul li a{
+	text-decoration: none;
+	color: white;
+	display: block;
+	text-transform: uppercase;
+	padding: 0px 25px;
+	transition: .5s;
+}
+.menu ul li a:hover{
+	color: #1E4564;
+}
+.menu ul li:last-child a{
+	padding-right: 0px;
+}
